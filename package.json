@@ -4,6 +4,7 @@
   "description": "We learn ways of webpack",
   "main": "index.js",
   "scripts": {
+    "start": "npm install",
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },

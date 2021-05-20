@@ -6,3 +6,9 @@ npx webpack --mode production
 
 sukompiliavimas kurimui (development mode )
 npx webpack --mode development
+
+pasidarem scpriptus dev build ir start 
+
+norim idiegti html plugin 
+https://webpack.js.org/plugins/html-webpack-plugin/
+npm install --save-dev html-webpack-plugin
