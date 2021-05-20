@@ -29,3 +29,8 @@ parsisiusti is github su git clone ir padaryti veikianciu
 12N pasikurit 2 js failus is ju exportuoti po 2 funkicjas su module.exports
 yas importuoti app.js faile. kol sita darom pasileidziam app.js su nodemon
 funkcijos turetu kazka paskaiciuoti su argumentais arba pagrazinti texta
+
+13N sukurti atskirame faile funkcija banner, kuri grazina i html 
+sustilizuota banneri. css galite aprasyti css atskiram faile.
+banneryje yra antrasta, paraste, mygtukas, 
+extra, paspaudus mygtuka padaryti console log 
