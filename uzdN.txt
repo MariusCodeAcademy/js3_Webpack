@@ -22,3 +22,10 @@ i html. (index.html sukurti script tag i html.js)
 pasibandyti ar narsykleje duomenys atsinaujina pakeitus html ar css
 
 10N padaryti kad parasiu 'npm run serve' pasileistu live serveris ir index.html
+
+11N viska nusiusti i github, ir istrinti is savo kompiuterio visa direktorija
+parsisiusti is github su git clone ir padaryti veikianciu
+
+12N pasikurit 2 js failus is ju exportuoti po 2 funkicjas su module.exports
+yas importuoti app.js faile. kol sita darom pasileidziam app.js su nodemon
+funkcijos turetu kazka paskaiciuoti su argumentais arba pagrazinti texta
