@@ -10,5 +10,10 @@ module.exports = {
     filename: "main.bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
-  plugins: [],
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "This is dynamic Webpack Title",
+      template: "src/index.html",
+    }),
+  ],
 };
