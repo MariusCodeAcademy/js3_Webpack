@@ -12,3 +12,7 @@ pasidarem scpriptus dev build ir start
 norim idiegti html plugin 
 https://webpack.js.org/plugins/html-webpack-plugin/
 npm install --save-dev html-webpack-plugin
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+
