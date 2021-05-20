@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "M.K.",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariusCodeAcademy/js3_Webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MariusCodeAcademy/js3_Webpack/issues"
+  },
+  "homepage": "https://github.com/MariusCodeAcademy/js3_Webpack#readme"
 }
