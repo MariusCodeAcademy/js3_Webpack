@@ -1,0 +1,24 @@
+1N pradeti nauja projekta, inicijuoti git
+
+2N prijungti github nusiusti projekta i github
+
+3N inicijuoti NPM 
+
+4N pasileisti pagr programos faila (app.js) su nodemon
+
+5N sukurti scripta kad parasius "npm run dev" paleistu pagr faila su nodemon
+
+6N viska nusiusti i github, ir istrinti is savo kompiuterio visa direktorija
+parsisiusti is github su git clone ir padaryti veikianciu
+
+7N sukurti index.html faila ir main_title.js failus.
+main_title.js faile sukurti ir exportuoti (es6) main_title funkcija kuri sukuria h1 elementa
+su .main-title clase  ir grazina ta el. 
+
+8N sukurti html.js faila jame importuoti main title ir panaudojant ji prideti sukurta el 
+i html. (index.html sukurti script tag i html.js)
+
+9N susiintaliuoti live-server kaip dev priklausomybe, ir paleisti savo index.html faila
+pasibandyti ar narsykleje duomenys atsinaujina pakeitus html ar css
+
+10N padaryti kad parasiu 'npm run serve' pasileistu live serveris ir index.html
