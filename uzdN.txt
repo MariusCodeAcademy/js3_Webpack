@@ -46,9 +46,9 @@ extra, paspaudus mygtuka padaryti console log
 
 4P isitraukti aside i app.js ir patalpinti dokumente
 
-5P padaryti kad paspaudus mygtuka gautume konsole log savo bannerio antraste
+5P padaryti kad paspaudus mygtuka aside gautume konsole log savo,  bannerio antraste
 
-6P sukurti mygtuka html template
+6P sukurti mygtuka html template (html budu)
 
 7P src direktorijoje sukurti components direktorija i ja pataplinti banner ir aside
  direktorijas.
@@ -66,8 +66,28 @@ jei turit is pries tai projektu galite panaudot ta pati. modalas turi tureti bac
 
  12P modale padaryti mygtuka 'close modal' kuris panaikina modala. 
 
-12P padaryti kad paspaudus backdrop uzsidarytu modalas 
+13P padaryti kad paspaudus backdrop uzsidarytu modalas 
 
-13P 
+14P apziurejus savo koda pabandyti ji susiskaidyti loginiais gablais jei jis ilgokas arba to 
+reikalautu logika
+
+15P pasirasyti pagalbine funkija kuriai padavus el, texta ir klase ji grazina html elmenta su 
+tai argumenais uzpildyta atitinkamose vietose. Padaryti kad jei klase neivesta tai jos 
+neturetu matytis prie sukurto el. 
+
+16P patalpinti funkcija i src/js direktorija ir jos pagalba sukurti ir patalpinti dvi antrastes
+ir du paragrafus su skirtingom klasem 
+
+17P components direktorijoje sukurti direktorija myInput jame dinamiskai sukurti ivesties lauka
+ir mygtuka abu esancius sugrupuotus div'e
+
+18P siek tiek pastilizuoti komponentus
+
+19P sukuriant nauja myInput el argumentu paduoti placeholderi ir mygtuko pavadinima
+
+20P exportuoti myInput ir panaudoti app.js
+
+21P paspaudus mygtuka ivesties lauke esantis tekstas turetu tapti didziosiomis raidemis
+
 
 
