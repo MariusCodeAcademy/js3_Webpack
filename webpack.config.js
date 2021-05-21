@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  devtool: false, // kad kai sukompiliujam development eitu geriau suprasti koda
+  devtool: "source-map", // kad kai sukompiliujam development eitu geriau suprasti koda
   devServer: {
     contentBase: "./dist",
   },
