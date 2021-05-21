@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
+  devtool: false, // kad kai sukompiliujam development eitu geriau suprasti koda
   entry: {
     //   nurodom musu programos pagrindini js faila
     main: path.resolve(__dirname, "./src/app.js"),
@@ -14,8 +15,19 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i, // pritaikom taisykle tik *.css failams
-        //TODO: production env MiniCssExtractPlugin
+        // TODO: production env MiniCssExtractPlugin
         use: ["style-loader", "css-loader"], // perdarom .css failus i dist folderi
+      },
+      {
+        test: /\.js$/, // .js
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            // kokio senummo js mes norim paversti veikianciu senesnese narsyklese
+            presets: ["@babel/preset-env"],
+          },
+        },
       },
     ],
   },
