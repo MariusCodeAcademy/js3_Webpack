@@ -14,6 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i, // pritaikom taisykle tik *.css failams
+        //TODO: production env MiniCssExtractPlugin
         use: ["style-loader", "css-loader"], // perdarom .css failus i dist folderi
       },
     ],
@@ -21,7 +22,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "This is dynamic Webpack Title",
-      template: "src/index.html",
+      template: "src/template.html",
     }),
   ],
 };
