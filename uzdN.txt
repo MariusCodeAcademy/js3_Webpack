@@ -34,3 +34,40 @@ funkcijos turetu kazka paskaiciuoti su argumentais arba pagrazinti texta
 sustilizuota banneri. css galite aprasyti css atskiram faile.
 banneryje yra antrasta, paraste, mygtukas, 
 extra, paspaudus mygtuka padaryti console log 
+
+
+============================================================================================
+
+1P susikurti aside el dinamisai su antraste, sarasu,  ir mygtuku. (atskiroje direktorijoje)
+
+2P susikurti css faila ir pastilizuoti musu aside el itraukti stiliu i componenta. 
+
+3P exportuoti aside su stilium. 
+
+4P isitraukti aside i app.js ir patalpinti dokumente
+
+5P padaryti kad paspaudus mygtuka gautume konsole log savo bannerio antraste
+
+6P sukurti mygtuka html template
+
+7P src direktorijoje sukurti components direktorija i ja pataplinti banner ir aside
+ direktorijas.
+
+8P isitikinti kad viskas veikia kaip anksciau, jei ne padaryti kad veiktu
+(sutvarkyti import export kelius )
+
+9P components direktorijoje sukurti papke modal ir joje js ir css failus 
+
+10P dinamiskai sukurti su funkcija ar clase modala ir sustilizuoti su stilium
+jei turit is pries tai projektu galite panaudot ta pati. modalas turi tureti backdrop, tamsu fona
+
+11P padaryti kad paspauds htmle esanti mygtuka pasirodytu modalas ir isnyktu kai 
+ paspaudizam dar karta
+
+ 12P modale padaryti mygtuka 'close modal' kuris panaikina modala. 
+
+12P padaryti kad paspaudus backdrop uzsidarytu modalas 
+
+13P 
+
+
