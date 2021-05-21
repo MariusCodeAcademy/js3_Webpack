@@ -3,6 +3,7 @@ import say from "./js/say";
 import "./css/style.css"; // itraukiam css faila
 
 import banner from "./banner/ban";
+import aside from "./aside/aside";
 // const path = require("path");
 // console.log(" path", path.resolve(__dirname));
 console.log("index.js");
@@ -17,4 +18,6 @@ console.log(" copy", copy);
 
 const bestBanner = banner("Dynamic banners are here", "Webpack is here");
 
-document.body.append(bestBanner);
+const aside1 = aside("THis is our main aside", ["red", "green", "blue"], "Spausti cia");
+
+document.body.append(bestBanner, aside1);
