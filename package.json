@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm install",
     "build:dev": "webpack ",
-    "serve": "webpack serve --open",
+    "serve": "webpack serve",
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
